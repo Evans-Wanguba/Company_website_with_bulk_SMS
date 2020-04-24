@@ -1,0 +1,304 @@
+.header
+{
+background:#333;
+color:gray;
+}
+
+.footer
+{
+background:#333;
+color:gray;
+text-align:center;
+}
+
+.table{
+	overflow:auto;
+}
+
+.navbar-inverse {
+    background-color: #333;
+    border-color: transparent;
+}
+
+.navbar {
+    border: 0px solid #fff;
+    min-height: 40px;
+    margin-bottom: 0px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFF;
+}
+
+.navStyle {
+	float: center;
+}
+
+.navStyle ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.navStyle ul li {
+    display: inline-block;
+    margin: 0 0px;
+}
+
+.navStyle ul li:first-child {
+	/*margin:0px;*/;
+}
+
+.navStyle ul li:last-child {
+    margin: 0 0 0 0px;
+}
+
+.navStyle ul li a {
+    display: block;
+    font-size: 14px;
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+.navStyle ul li a:hover {
+    color: #005490;
+}
+
+.navStyle > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    color: #005490;
+    background-color: #111;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #005490;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+	background-color: #005490;
+}
+
+.navStyle > li.active > a,
+.navStyle > li.active > a:hover {
+    text-decoration: none;
+    color: #005490;
+    background-color: transparent;
+}
+
+.borderLeft {
+    border-left: 1px solid #DADADA;
+}
+
+.borderTop {
+    margin-top: 30px;
+    border-top: 1px solid #DADADA;
+}
+
+.mrgTop {
+    margin-top: 30px;
+}
+
+
+
+
+
+h1,h2,h3,h4,h5 
+{
+	color:#005490;
+	
+}
+
+.box {
+  width: 20%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color:blue;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media only screen and (max-width:1222px)
+{ 
+.box
+{
+width: 70%;
+}
+.popup
+{
+width: 70%;
+}
+#nav
+{
+width:100%;
+margin:0px auto;
+background-color:gray;
+}
+
+#nav ul
+{
+list-style:none;
+}
+
+#nav li
+{
+clear:both;'
+padding:10px;
+border-left:none;
+border-top:1px solid gray;
+}
+
+#nav li:first-child
+{
+border-top:none;
+}
+
+#nav li a
+{
+text-decoration:none;
+color:white;
+display:block;	
+}
+
+#nav a:hover
+{
+background:black;
+color:white;	
+display:block;
+}
+}
+
+@media only screen and (max-width:700px)
+{ 
+.box
+{
+width: 70%;
+}
+.popup
+{
+width: 70%;
+}   
+#nav
+{
+width:100%;
+margin:0px auto;
+background-color:gray;
+}
+
+#nav ul
+{
+list-style:none;
+}
+
+#nav li
+{
+clear:both;'
+padding:10px;
+border-left:none;
+border-top:1px solid gray;
+}
+
+#nav li:first-child
+{
+border-top:none;
+}
+
+#nav li a
+{
+text-decoration:none;
+color:white;
+display:block;	
+}
+
+#nav a:hover
+{
+background:black;
+color:white;	
+display:block;
+}
+
+.normal 
+{
+width:100%;
+margin:0px auto;
+border-collapse:collapse;
+margin-bottom:12px;
+}
+.normal tr, td
+{
+padding-top:6px;
+}
+
+.normal tr
+{
+
+}
+
+.normal td, th
+{
+float:left;
+vertical-align:top;
+}
+
+.normal td:before
+{
+top:6px;
+}
+}
